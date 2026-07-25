@@ -13,7 +13,7 @@ Unity Project Source -> https://drive.google.com/file/d/1IV_HKp6pQ1Kf7Nq8_XD1Jm4
   
 Project status:  
  * Terrain defined
- * 8 rigged characters included (4 Scrg & 4 Sentinel)
+ * 10 rigged characters included (5 Scrg & 5 Sentinel)
  * Basic Movement (shift 2 run & space 2 jump, mouse wheel to select spell, middle wheel to toggle autocast, right click to use spell) - mouse sensitivity is a bit off
  * One Character with active spells preview (Clickz) - invisibility texture seems to be missing in this version.
    
