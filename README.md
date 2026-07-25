@@ -10,7 +10,7 @@ Unity Project Source -> https://drive.google.com/file/d/1IV_HKp6pQ1Kf7Nq8_XD1Jm4
 ![alt text](https://github.com/RgbTrouw/War3FySnow/blob/root/War3FySnow.png)  
   
 Project status:  
- * Terrain defied
+ * Terrain defined
  * 8 rigged characters included (4 Scrg & 4 Sentinel)
  * Basic Movement
  * One Character with active spells* (Clickz)
