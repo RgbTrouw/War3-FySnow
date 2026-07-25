@@ -15,7 +15,7 @@ Project status:
  * Terrain defined
  * 10 rigged characters included (5 Scrg & 5 Sentinel)
  * Basic Movement (shift 2 run & space 2 jump, mouse wheel to select spell, middle wheel to toggle autocast, right click to use spell) - mouse sensitivity is a bit off
- * One Character with active spells preview (Clickz) - invisibility texture seems to be missing in this version.
+ * One Character with active spells preview (Clickz) - *invisibility texture seems to be missing in this version.
    
   
 
