@@ -12,7 +12,7 @@ Unity Project Source -> https://drive.google.com/file/d/1IV_HKp6pQ1Kf7Nq8_XD1Jm4
 Project status:  
  * Terrain defined
  * 8 rigged characters included (4 Scrg & 4 Sentinel)
- * Basic Movement
+ * Basic Movement (shift 2 run & space 2 jump)
  * One Character with active spells preview (Clickz)
   
 
