@@ -13,6 +13,6 @@ Project status:
  * Terrain defined
  * 8 rigged characters included (4 Scrg & 4 Sentinel)
  * Basic Movement
- * One Character with active spells - mostly (Clickz)
+ * One Character with active spells preview (Clickz)
   
 
