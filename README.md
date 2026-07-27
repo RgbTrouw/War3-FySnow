@@ -9,11 +9,11 @@ Animations and Camera have to be simplified.
   
 Dota 2 Character Models are employed (with some modifications) on a small Snow map.  
 
-There is a windows x64 bin demo exe available here -> https://drive.google.com/file/d/1s8XZhduaiN9wKpARd5myblqcOA85Dnh5/view
+There is a windows x64 bin demo exe available here ->  
 
-Unity Project Source -> https://drive.google.com/file/d/1IV_HKp6pQ1Kf7Nq8_XD1Jm4nen5e_4D7/view  
+Unity Project Source -> 
   
-![alt text](https://github.com/RgbTrouw/War3FySnow/blob/root/War3FySnow.png)  
+
   
 Project status:  
  * Terrain defined
