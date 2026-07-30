@@ -1,25 +1,22 @@
 # War3FySnow
 Multiplayer Game - Preview  
 
-An older, early days Unity Project.  
-  
-Some things might have to be redone, but there seemes to be some content to it.  
-  
-Animations and Camera have to be simplified.  
-  
+An older Unity Project.  
+
 Dota 2 Character Models are employed (with some modifications) on a small Snow map.  
 
-There is a windows x64 bin demo exe available here ->  
-
-Unity Project Source -> 
   
+Unity Project Source -> https://drive.google.com/file/d/11tgfpW7kvpt8yYZmiIGQq_yVx4s3PNIe/view
 
   
 Project status:  
- * Terrain defined
- * 10 rigged characters included (5 Scrg & 5 Sentinel)
- * Basic Movement (shift 2 run & space 2 jump, mouse wheel to select spell, middle wheel to toggle autocast, right click to use spell)  *mouse look is a bit off   
- * One Character with active spells preview (Clickz) *however, invisibility texture seems to be missing in this version.
-   
+ 
+ * Snow Terrain defined  
+ * A couple of dota characters with rig and basic animations  
+ * Movement has been restarted from scratch (Only Drow Ranger has a minimal Player Controller)  
+ * 2 scenes included: Starting Scene and Game Play Scene  
+ * Simple Multi Thread TCP Server will listen over port 2026 within the starting scene
+
+  
   
 
