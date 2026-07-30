@@ -12,7 +12,7 @@ Unity Project Source -> https://drive.google.com/file/d/11tgfpW7kvpt8yYZmiIGQq_y
 Project status:  
  
  * Snow Terrain defined  
- * A couple of dota characters with rig and basic animations  
+ * A couple of dota characters with rig and basic animations included  
  * Movement has been restarted from scratch (Only Drow Ranger has a minimal Player Controller)  
  * 2 scenes included: Starting Scene and Game Play Scene  
  * Simple Multi Thread TCP Server will listen over port 2026 within the starting scene
