@@ -1,8 +1,8 @@
 # War3FySnow
 Multiplayer Game - Preview  
 
-An older Unity Project.  
-
+An older Unity Project. A lot of content has been removed for being old and deprecated.   
+  
 Dota 2 Character Models are employed (with some modifications) on a small Snow map.  
 
   
