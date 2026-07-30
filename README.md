@@ -11,12 +11,12 @@ Unity Project Source -> https://drive.google.com/file/d/14TbUB3eYGOMrIxItp6-jkIY
 
   
 Project status:  
- 
+   
+ * 2 scenes included: Starting Scene and Game Play Scene  
+ * Simple Multi Thread TCP Server will listen over port 2026 within the starting scene
  * Snow Terrain defined  
  * A couple of dota characters with rig and basic animations included  
  * Movement has been restarted from scratch (Only Drow Ranger has a minimal Player Controller sample)  
- * 2 scenes included: Starting Scene and Game Play Scene  
- * Simple Multi Thread TCP Server will listen over port 2026 within the starting scene
 
   
   
