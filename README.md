@@ -17,7 +17,7 @@ Project status:
  * Snow Terrain defined  
  * A couple of dota characters with rig and basic animations included  
  * Movement has been restarted from scratch (Only Drow Ranger has a minimal Player Controller sample)  
-
   
-  
+    
+* User Interface Canvas might be messed up... resetting it might solve the problem.  
 
