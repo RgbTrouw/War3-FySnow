@@ -218,7 +218,9 @@ public class TCPServer : MonoBehaviour
                         string serverMessage = Encoding.UTF8.GetString(incomingData);
 
                         if(serverMessage == "initializeGame"){
-
+                          
+                         /// https://github.com/PimDeWitte/UnityMainThreadDispatcher
+                            
                             UnityMainThreadDispatcher.Enqueue(() =>
                             {
                                 
