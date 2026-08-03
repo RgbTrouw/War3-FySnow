@@ -19,5 +19,5 @@ Project status:
  * Movement has been restarted from scratch (Only Drow Ranger has a minimal Player Controller sample)  
   
     
-* User Interface Canvas might be messed up... resetting it might solve the problem.  
+** User Interface Canvas might be messed up... resetting it might solve the problem.  
 
