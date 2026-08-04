@@ -270,6 +270,8 @@ namespace networking {
 
                             if(serverMessage.Split(' ')[0] == "initializeGame"){
 
+                            /// https://github.com/PimDeWitte/UnityMainThreadDispatcher
+
                                 UnityMainThreadDispatcher.Enqueue(() =>
                                 {
                                     
