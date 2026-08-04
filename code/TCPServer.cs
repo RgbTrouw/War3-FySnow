@@ -59,19 +59,10 @@ public class TCPServer : MonoBehaviour
         localIpText.text = Dns.GetHostEntry(Dns.GetHostName()).AddressList[0].ToString();
         serverIP = Dns.GetHostEntry(Dns.GetHostName()).AddressList[0].ToString();
 
-        //StartCoroutine(mainThreadTasks);
+        
        
     }
-     
-    //  IEnumerator mainThreadTasks()
-    //  {
-    //     while (jobsQue.Count > 0) {
-    //         jobsQue.Dequeue().Invoke();
-
-    //     }
-
-    //     yield return new WaitForSeconds(.1f);
-    // }
+   
 
 
     private void setPlayerName(){
