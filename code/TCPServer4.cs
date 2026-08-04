@@ -290,6 +290,8 @@ namespace networking {
                             string serverMessage = Encoding.UTF8.GetString(incomingData);
 
                             if(serverMessage.Split(' ')[0] == "initializeGame"){
+            
+                            /// https://github.com/PimDeWitte/UnityMainThreadDispatcher
 
                                 UnityMainThreadDispatcher.Enqueue(() =>
                                 {
