@@ -5,6 +5,7 @@ An older Unity Project. A lot of content has been removed for being old and depr
 However, the source will be cleaner this way.  
   
 Dota 2 Character Models are employed (with some modifications) on a small Snow map.  
+These were downloaded from the Dota2 website a while ago.  
 
   
 Unity Project Source -> https://drive.google.com/file/d/14TbUB3eYGOMrIxItp6-jkIYo4gtDyY09/view
@@ -21,3 +22,4 @@ Project status:
     
 ** User Interface Canvas might be messed up... resetting it might solve the problem.  
 
+Project updates will come, but code snips could be regularly added to github.
