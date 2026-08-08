@@ -41,6 +41,8 @@ namespace networking {
         [SerializeField] public GameObject model0, model1, model2, model3, model4, model5, model6, model7;
         [SerializeField] public GameObject playerModel, sentinelPlayersEmpty, scourgePlayersEmpty;
 
+        [SerializeField] private Text minutesText, secondsText;
+
         private GameObject[] players;
         private GameObject[] sentinelPlayers, scourgePlayers;
 
@@ -108,20 +110,21 @@ namespace networking {
         
         public void Update(){
 
-            if(gameStarted == true){
+         
 
-            timer -= Time.deltaTime;
-            
-            
+            if(gameHost.hosting){
 
-            if(timer <= 0 ){
-                timer = 560;
-            }
+            gameHost.timeLeft -= Time.deltaTime;
+
+            //minutesText.text = Mathf.RoundToInt(gameHost.timeLeft / 60).ToString();
+            secondsText.text = Mathf.RoundToInt(gameHost.timeLeft).ToString();
+
+            if(gameHost.timeLeft <= 0){ gameHost.timeLeft = 560;}
 
 
-            //Debug.Log(timer);
-            //Debug.Log(localPlayer.selectedCharacter + " " + localPlayer.selectedTeam + " " + timer);
-            }
+            broadcastInstructions("timeleft " + gameHost.timeLeft.ToString());
+
+            }        
 
         }
 
@@ -173,10 +176,11 @@ namespace networking {
             Thread acceptThread = new Thread(AcceptClients);
             acceptThread.Start();
 
-            hosting = true;
+           
 
             gameHost = new gamePlay();
             gameHost.Start();
+            gameHost.hosting = true;
 
             joinServer();
         }
@@ -251,10 +255,18 @@ namespace networking {
                             } else if(message.Split(' ')[2] == "0"){
                             broadcastInstructions(message + " " + "pos(" + gameHost.playersList[int.Parse(message.Split(' ')[0])].sentinelSpawnPosX.ToString() + "," + gameHost.playersList[int.Parse(message.Split(' ')[0])].sentinelSpawnPosY.ToString() + "," + gameHost.playersList[int.Parse(message.Split(' ')[0])].sentinelSpawnPosZ.ToString() + ")");
                             }
+                     
                      } else if(message.Split(' ')[1] == "joined"){
 
                             for(int i=0; i<gameHost.playersList.Count; i++){
-                                broadcastInstructions(message.Split(' ')[0] + " playersList " + i.ToString() + " " + gameHost.playersList[i].playerName + " " + gameHost.playersList[i].team + " " + gameHost.playersList[i].character);
+
+                                    // float posx, posy, posz;
+                                    // if(int.Parse(gameHost.playersList[i].team) == "0"){
+                                    //     pos
+                                    // }
+                                    // + " " + "pos(" + gameHost.playersList[i].spawnPosX + "," + gameHost.playersList[i].spawnPosY + "," + gameHost.playersList[i].spawnPosZ + ")" 
+
+                                broadcastInstructions("playersList " + i.ToString() + " " + gameHost.playersList[i].playerName + " " + gameHost.playersList[i].team + " " + gameHost.playersList[i].character );
                             }
                      }
 
@@ -357,7 +369,7 @@ namespace networking {
                                     //player.SetActive(true);
                                    
 
-                                    player = Instantiate(playerModel, new Vector3(float.Parse(serverMessage.Split(' ')[5].Substring(4).Remove(serverMessage.Split(' ')[5].Substring(4).Length - 1).Split(',')[0]) + Random.Range(-56.0f,56.0f), float.Parse(serverMessage.Split(' ')[5].Substring(4).Remove(serverMessage.Split(' ')[5].Substring(4).Length - 1).Split(',')[1]) , float.Parse(serverMessage.Split(' ')[5].Substring(4).Remove(serverMessage.Split(' ')[5].Substring(4).Length - 1).Split(',')[2]) + Random.Range(-8f,8f)), playerModel.transform.rotation);
+                                    player = Instantiate(playerModel, new Vector3(float.Parse(serverMessage.Split(' ')[5].Substring(4).Remove(serverMessage.Split(' ')[5].Substring(4).Length - 1).Split(',')[0]) , float.Parse(serverMessage.Split(' ')[5].Substring(4).Remove(serverMessage.Split(' ')[5].Substring(4).Length - 1).Split(',')[1]) , float.Parse(serverMessage.Split(' ')[5].Substring(4).Remove(serverMessage.Split(' ')[5].Substring(4).Length - 1).Split(',')[2]) ), playerModel.transform.rotation);
                                     player.name = serverMessage.Split(' ')[4];
                                     player.SetActive(true);
 
@@ -425,7 +437,7 @@ namespace networking {
                                     SendMessageToServer(serverMessage[0] + " joined");
 
                                 });
-                            } else if (serverMessage.Split(' ')[1] == "playersList"){
+                            } else if (serverMessage.Split(' ')[0] == "playersList"){
 
                                 Debug.Log("connected player count");
                             }
@@ -527,7 +539,7 @@ namespace networking {
             Debug.Log("client sent message to server -> " + message);
         }
 
-        
+       
     }
 
 }
