@@ -1,5 +1,6 @@
 # War3FySnow
-Multiplayer Game - Preview  - *An older Unity Project (Multiplayer Online Battle Arena - FPS)*  
+Multiplayer Game - Preview  - *An older Unity Project - (RPG - Multiplayer Online Battle Arena - FPS)*  
+
   
 Dota 2 Character Models are employed, with some modifications, on a small Counter-Strike like Snow map.  
   
