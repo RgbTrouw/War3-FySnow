@@ -1,7 +1,5 @@
 # War3FySnow
-Multiplayer Game - Preview  
-
-*An older Unity Project*  
+Multiplayer Game - Preview  - *An older Unity Project*  
   
 Dota 2 Character Models are employed, with some modifications, on a small Counter-Strike like Snow map.  
   
