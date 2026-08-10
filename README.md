@@ -16,7 +16,6 @@ Unity Project Source v0.1 -> https://drive.google.com/file/d/14TbUB3eYGOMrIxItp6
   
 Project status:  
    
- * 2 scenes included: Starting Scene and Game Play Scene  
  * Simple Multi Thread TCP Server will listen over port 2026 within the Starting Scene
  * Snow Terrain defined  
  * A couple of dota characters with rig and basic animations included  
