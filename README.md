@@ -2,7 +2,9 @@
 Multiplayer Game - Preview  
 
 An older Unity Project.  
-A lot of content has been removed for being old and deprecated.  
+Some local content has been removed for now. (Server - Client connectivity is currently under development)  
+
+
   
 Dota 2 Character Models are employed, with some modifications, on a small Counter-Strike like Snow map.  
   
