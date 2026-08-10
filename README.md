@@ -18,8 +18,8 @@ Project status:
    
  * Simple Multi Thread TCP Server will listen over port 2026 within the Starting Scene
  * Snow Terrain defined  
- * A couple of dota characters with rig and basic animations included  
- * Minimal movement and animations  
+ * A couple of dota characters with rig and basic animation sources included  
+ * Minimal movement and animations employed  
   
 
 Project updates will come, but code snips could be regularly added to github.
