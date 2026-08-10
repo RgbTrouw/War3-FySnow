@@ -20,9 +20,7 @@ Project status:
  * Simple Multi Thread TCP Server will listen over port 2026 within the Starting Scene
  * Snow Terrain defined  
  * A couple of dota characters with rig and basic animations included  
- * Movement has been restarted from scratch (Only Drow Ranger has a minimal Player Controller sample)  
+ * Minimal movement and animations  
   
-    
-** User Interface Canvas might be messed up... resetting it might solve the problem.  
 
 Project updates will come, but code snips could be regularly added to github.
