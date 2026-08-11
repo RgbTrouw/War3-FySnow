@@ -23,3 +23,13 @@ Project status:
   
 
 Project updates will come, but code snips could be regularly added to github.
+
+Code Notes:
+
+` TCPServer.cs {
+  broadcastInstructions(..){  
+  ...  
+  -- stream.Write();  
+  ++ stream.WriteAsync();  
+  }  `
+}
