@@ -19,8 +19,8 @@ Unity Project Source v0.1 -> https://drive.google.com/file/d/14TbUB3eYGOMrIxItp6
   
 Project status:  
    
- * Simple Multi Thread TCP Server will listen over port 2026 within the Starting Scene
- * Snow Terrain defined  
+ * Simple Multi Thread TCP Server will listen over port 2026
+ * Snow terrain map defined  
  * A couple of dota characters with rig and basic animation sources included  
  * Minimal movement and animations employed  
   
