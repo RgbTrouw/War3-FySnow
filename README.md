@@ -5,7 +5,8 @@ Multiplayer Game - Preview  - *An older Unity Project - (RPG - Multiplayer Onlin
 Dota Character Models are employed, with some modifications, on a small Counter-Strike like Snow map.  
   
   
-Some local content has been removed for now.   Server - Client connectivity is under development.  
+Some local content has been removed for now.  
+Server - Client connectivity is under development.  
    
 ( ... )  
   
